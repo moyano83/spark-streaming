@@ -70,7 +70,7 @@ object L2_DStreamsTransformations {
     // countNameReduce().print
     // countPeople().print
     // countNames().print
-    saveToJson().print
+    saveToJson()
     ssc.start()
     ssc.awaitTermination()
   }
